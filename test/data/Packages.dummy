@@ -1,0 +1,85 @@
+Package: 2vcard
+Priority: optional
+Section: utils
+Installed-Size: 108
+Maintainer: Martin Albisetti <argentina@gmail.com>
+Architecture: all
+Version: 0.5-3
+Filename: pool/main/2/2vcard/2vcard_0.5-3_all.deb
+Size: 14300
+MD5sum: d831fd82a8605e9258b2314a7d703abe
+SHA1: e903a05f168a825ff84c87326898a182635f8175
+SHA256: 2be9a86f0ec99b1299880c6bf0f4da8257c74a61341c14c103b70c9ec04b10ec
+Description: perl script to convert an addressbook to VCARD file format
+ 2vcard is a little perl script that you can use to convert the
+ popular vcard file format. Currently 2vcard can only convert addressbooks
+ and alias files from the following formats: abook,eudora,juno,ldif,mutt,
+ mh and pine.
+ .
+ The VCARD format is used by gnomecard, for example, which is used by the
+ balsa email client.
+Tag: implemented-in::perl, role::program, use::converting
+
+Package: 3dchess
+Priority: optional
+Section: games
+Installed-Size: 144
+Maintainer: Debian Games Team <pkg-games-devel@lists.alioth.debian.org>
+Architecture: i386
+Version: 0.8.1-16
+Depends: libc6 (>= 2.7-1), libx11-6, libxext6, libxmu6, libxpm4, libxt6, xaw3dg (>= 1.5+E-1)
+Filename: pool/main/3/3dchess/3dchess_0.8.1-16_i386.deb
+Size: 34932
+MD5sum: 9ae878bd661d0dfe2b636c27d0df5c45
+SHA1: 8e93eb4238e148747d7e34bcd8aa665e87b534c1
+SHA256: 4148421d977347a3693f9316c3c2ef3fe3d012ed95b02b23105ae984b93c708c
+Description: 3D chess for X11
+ 3 dimensional Chess game for X11R6.  There are three boards, stacked
+ vertically; 96 pieces of which most are the traditional chess pieces with
+ just a couple of additions; 26 possible directions in which to move.  The
+ AI isn't wonderful, but provides a challenging enough game to all but the
+ most highly skilled players.
+Tag: game::board, game::board:chess, implemented-in::c, interface::x11, role::program, uitoolkit::xlib, use::gameplaying, x11::application
+
+Package: 4g8
+Priority: optional
+Section: net
+Installed-Size: 72
+Maintainer: LaMont Jones <lamont@debian.org>
+Architecture: i386
+Version: 1.0-3
+Depends: libc6 (>= 2.6.1-1), libnet1 (>= 1.1.2-1), libpcap0.8 (>= 0.9.3-1)
+Filename: pool/main/4/4g8/4g8_1.0-3_i386.deb
+Size: 12164
+MD5sum: 14ae727a8be5c99a66841a3877a8317f
+SHA1: 5c9d4a309751fd5cb4ace74f96d43febf3ac0c25
+SHA256: 425316ca963437a7fc58c52dbdf52eec199f4e14b5e3a1f6038078835504e5e9
+Description: Packet Capture and Interception for Switched Networks
+ 4G8 allows you to capture traffic from a third party in a switched
+ environment at the expense of a slight increase in latency to that
+ third party host. Utilizing ARP cache poisoning, packet capture and
+ packet reconstruction techniques, 4G8 works with nearly all TCP, ICMP
+ and UDP IPv4 traffic flows.
+Tag: admin::monitoring, protocol::{ip,tcp,udp}, role::program, works-with::network-traffic
+
+Package: 6tunnel
+Priority: optional
+Section: net
+Installed-Size: 68
+Maintainer: Jari Aalto <jari.aalto@cante.net>
+Architecture: i386
+Version: 0.11rc2-3.1
+Depends: libc6 (>= 2.3)
+Filename: pool/main/6/6tunnel/6tunnel_0.11rc2-3.1_i386.deb
+Size: 13544
+MD5sum: b5697f37b4246a9ab19cc91e24494c0f
+SHA1: 3811df1f6e7458027f78fa0e0ab684b2883b8bbc
+SHA256: 5969e3ab0f8d92fc0bd751874ebabba76cece8ca1e795f0575b6b12bd7eb543a
+Description: TCP proxy for non-IPv6 applications
+ 6tunnel allows you to use services provided by IPv6 hosts with
+ IPv4-only applications and vice versa. It can bind to any of your IPv4
+ or IPv6 addresses and forward all data to IPv4 or IPv6 host.
+ .
+ It can be used for example as an IPv6-capable IRC proxy.
+Homepage: http://toxygen.net/6tunnel
+Tag: interface::daemon, network::server, network::vpn, protocol::ipv6, role::program, use::proxying
