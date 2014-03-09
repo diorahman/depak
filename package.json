@@ -1,6 +1,6 @@
 {
   "name": "depak",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "JSONify debian repository index files (Releases, Packages, Sources)",
   "main": "index.js",
   "scripts": {
@@ -13,8 +13,12 @@
   "keywords": [
     "debian",
     "parser",
-    "debian",
-    "index"
+    "package",
+    "index",
+    "release",
+    "packages",
+    "release.gz",
+    "packages.gz"
   ],
   "author": "Dhi Aurrahman <diorahman@rockybars.com>",
   "license": "MIT",

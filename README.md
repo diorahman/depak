@@ -2,7 +2,9 @@
 
 JSONify debian repository index files (Releases, Packages, Sources)
 
-Example:
+Examples:
+
+For a Release file:
 
 ```js
 
@@ -20,6 +22,8 @@ Example:
 
 ```
 
+For a Packages file:
+
 ```js
 
   var depak = new Depak();
@@ -32,7 +36,7 @@ Example:
     // return the summary of parsing data
   });
 
-  depak.parse (__dirname + '/test/data/Package.dummy');
+  depak.parse (__dirname + '/test/data/Packages.dummy');
 
 ```
 
