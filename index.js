@@ -48,7 +48,7 @@ Depak.prototype.parse = function(filename) {
         lastObj[lastKey].push(line.trim());
       }
       else {
-        lastObj[lastKey] += line;
+        lastObj[lastKey] += line.length > 0 ? ('\n' + line) : '';
       }
     }
 
